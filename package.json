@@ -1,0 +1,33 @@
+{
+  "name": "vehicle-identification-number",
+  "version": "0.0.0",
+  "description": "Vehicle Identification Number (VIN) parser",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "keywords": [
+    "vin",
+    "decoder",
+    "parser",
+    "encoder",
+    "vehicle"
+  ],
+  "main": "lib/vin.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~3.0.2"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-vehicle-identification-number",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-vehicle-identification-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-vehicle-identification-number/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd"
+  }
+}
